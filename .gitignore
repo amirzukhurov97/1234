@@ -1,0 +1,40 @@
+# Временные файлы сборки
+bin/
+obj/
+out/
+
+# Конфигурационные файлы
+*.user
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+.vscode/
+
+# Лог-файлы и дампы
+*.log
+*.dmp
+
+# Пакеты NuGet
+packages/
+*.nupkg
+project.lock.json
+
+# Файлы Rider / Resharper
+.idea/
+*.sln.iml
+
+# Файлы кэша
+.vs/
+*.cache
+*.config
+*.csproj.user
+
+# Файлы деплоя
+publish/
+AppPackages/
+TestResults/
+
+# Секретные файлы
+secrets.json
+appsettings*.json
